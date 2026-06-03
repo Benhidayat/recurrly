@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  ci/cd:
+  ci-cd:
     runs-on: ubuntu-latest
     steps:
       - uses: action/checkout@v6
